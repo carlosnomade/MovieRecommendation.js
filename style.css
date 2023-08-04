@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    outline: none;
+}
+
+Body {
+    background-color: #1E1F28;
+    margin: 40px 96px;
+    overflow: auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html ::-webkit-scrollbar {
+    width: 4px;
+}
+
+html ::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background: #8323FF;
+}
+
+html ::-webkit-scrollbar-track {
+    background: #1E1F28;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logoMovieAi {
+    width: 85.5px;
+}
+
+.generateRecomendation,
+.generateNewMovies {
+    display: flex;
+    padding: 8px 16px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    background: var(--gradientes-gradiente-normal, linear-gradient(90deg, #8323FF 0%, #FF2DAF 100%));
+    color: var(--cores-branco, #FFF);
+    font-family: Outfit;
+    font-size: 16px;
+    border: none;
+    box-shadow: 10px 10px 15px #00000043;
+    cursor: pointer;
+}
+
+.generateRecomendation:hover {
+    border-radius: 4px;
+    background: var(--gradientes-gradiente-hover, linear-gradient(90deg, #9F55FF 0%, #FF46B9 100%));
+}
+
+.circleIconButton {
+    pointer-events: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #fff;
+    animation: an1 1s ease infinite;
+}
+
+@keyframes an1 {
+    0% {
+        transform: rotate(0turn);
+    }
+
+    100% {
+        transform: rotate(1turn);
+    }
+}
+
+
+
+.flashButtonHead {
+    width: 18px;
+    height: 18px;
+}
+
+.moviesPlay {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 36px;
+    padding-bottom: 45px;
+}
+
+.posterMovie {
+    padding-top: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.headPoster {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.movieName {
+    display: flex;
+    width: 140px;
+    height: 40px;
+    max-width: 140px;
+    min-height: 40px;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--cores-branco, #FFF);
+    text-overflow: ellipsis;
+    font-family: Outfit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+}
+
+.starValue {
+    width: 16px;
+    height: 15.416px;
+    box-sizing: content-box;
+    padding: 0 4px;
+}
+
+.starColor {
+    color: var(--cores-amarelo, #FEEA35);
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 14.408px;
+}
+
+.imgPosterMovie {
+    width: 200px;
+    height: 288.513px;
+    flex-shrink: 0;
+    border-radius: 10px;
+}
+
+.timeDate {
+    display: flex;
+    width: 194px;
+    align-items: center;
+}
+
+.timeDate p {
+    color: var(--cores-cinza-light, #8B8D9B);
+    font-family: Outfit;
+    font-size: 12px;
+}
+
+.clockIcon,
+.dateIcon {
+    margin: 0;
+    width: 20px;
+    height: 20px;
+}
+
+.dateMovie {
+    padding: 0 4px;
+}
+
+.dateIcon {
+    display: flex;
+    margin-left: auto;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.clockIcon {
+    box-sizing: content-box;
+    padding: 0 4px;
+}
+
+.buttonPlay {
+    display: flex;
+    width: 194px;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    background: var(--cores-cinza, #2B2B37);
+    border: none;
+    box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.311);
+    cursor: pointer;
+}
+
+
+
+.buttonPlay:hover {
+    border-radius: 4px;
+    background: var(--cores-cinza-mdio, #373745);
+}
+
+.playIconButoon {
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+}
+
+.playText {
+    color: var(--cores-branco, #FFF);
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://phosphoricons.com/" type="image/x-icon">
+    <link rel="icon" href="assets/logoMovie.png" type="image/png">
+    <link rel="shortcut icon" href="phosphoricons.com" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600&family=Roboto:wght@500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Movie.Ai - 2023</title>
+</head>
+
+<body>
+
+    <div class="header">
+
+        <img class="logoMovieAi" src="assets/logoMovie.png" alt="logo-MovieAi">
+
+        <button id="generateNewMovies" class="generateRecomendation"> Nova recomendação
+            <img class="flashButtonHead" src="assets/lightningIcon.png" alt="lightningIcon">
+        </button>
+
+
+    </div>
+
+    <div class="moviesPlay">
+        <div class="posterMovie">
+            <div class="headPoster">
+                <h1 class="movieName">Barbie</h1>
+                <img class="starValue" src="assets/starRating.png" alt="EstrelaDeAvaliação">
+                <p class="starColor">3.2</p>
+            </div>
+
+            <img class="imgPosterMovie" src="assets/posterBarbie.png" alt="posterBarbie">
+
+            <div class="timeDate">
+                <img class="clockIcon" src="assets/alarmIcon.png" alt="alarmIcon">
+                <p class="timeMovie">1:54:00</p>
+                <img class="dateIcon" src="assets/calendarIcon.png" alt="calendarIcon">
+                <p class="dateMovie">2023</p>
+            </div>
+
+            <a href="https://youtu.be/Ujs1Ud7k49M" target="_blank"><button class="buttonPlay">
+                    <img class="playIconButoon" src="assets/playIcon.png" alt="playIcon">
+                    <p class="playText">Assistir trailer</p>
+                </button>
+            </a>
+        </div>
+
+        <div id="posterMovieTwo" class="posterMovie">
+            <div class="headPoster">
+                <h1 id="movieTwo" class="movieName">Oppenheimer</h1>
+                <img class="starValue" src="assets/starRating.png" alt="EstrelaDeAvaliação">
+                <p id="starMovieTwo" class="starColor">4.4</p>
+            </div>
+
+            <img id="imgMovieTwo" class="imgPosterMovie" src="assets/postOppnheimer.png" alt="postOppenheimer">
+
+            <div class="timeDate">
+                <img class="clockIcon" src="assets/alarmIcon.png" alt="alarmIcon">
+                <p id="timeMovieTwo" class="timeMovie">3:00:00</p>
+                <img  class="dateIcon" src="assets/calendarIcon.png" alt="calendarIcon">
+                <p id="dateMovieTwo" class="dateMovie">2023</p>
+            </div>
+
+            <a id="trailerOne" href="https://youtu.be/kEGlCYF5gaU" target="_blank"><button class="buttonPlay">
+                    <img class="playIconButoon" src="assets/playIcon.png" alt="playIcon">
+                    <p class="playText">Assistir trailer</p>
+                </button>
+            </a>
+        </div>
+
+        <div id="posterMovieThree" class="posterMovie">
+            <div class="headPoster">
+                <h1 id="movieThree" class="movieName" class="overFlowText">Indiana Jones e o Chamado d...</h1>
+                <img class="starValue" src="assets/starRating.png" alt="EstrelaDeAvaliação">
+                <p id="starMovieThree" class="starColor">3.8</p>
+            </div>
+
+            <img id="imgMovieThree" class="imgPosterMovie" src="assets/postIndianaJones.png" alt="postIndianaJones">
+
+            <div class="timeDate">
+                <img class="clockIcon" src="assets/alarmIcon.png" alt="alarmIcon">
+                <p id="timeMovieThree" class="timeMovie">2:22:00</p>
+                <img class="dateIcon" src="assets/calendarIcon.png" alt="calendarIcon">
+                <p id="dateMovieThree" class="dateMovie">2023</p>
+            </div>
+
+            <a href="https://youtu.be/WzV-a6pK1zA" target="_blank"><button class="buttonPlay">
+                    <img class="playIconButoon" src="assets/playIcon.png" alt="playIcon">
+                    <p class="playText">Assistir trailer</p>
+                </button>
+            </a>
+        </div>
+    </div>
+
+
+    <!-- ROW 2 -->
+    <div id="posterMovieFour" class="moviesPlay">
+        <div class="posterMovie">
+            <div class="headPoster">
+                <h1 id="movieFour" class="movieName">The Watcher</h1>
+                <img class="starValue" src="assets/starRating.png" alt="EstrelaDeAvaliação">
+                <p id="starMovieFour" class="starColor">2.8/5</p>
+            </div>
+
+            <img id="imgMovieFour" class="imgPosterMovie" src="assets/theWatcher.jpg" alt="posterBarbie">
+
+            <div class="timeDate">
+                <img class="clockIcon" src="assets/alarmIcon.png" alt="alarmIcon">
+                <p id="timeMovieFour" class="timeMovie">0:43:00</p>
+                <img class="dateIcon" src="assets/calendarIcon.png" alt="calendarIcon">
+                <p id="dateMovieFour" class="dateMovie">2022</p>
+            </div>
+
+            <a href="https://youtu.be/UFJvNxfsntA" target="_blank"><button class="buttonPlay">
+                    <img class="playIconButoon" src="assets/playIcon.png" alt="playIcon">
+                    <p class="playText">Assistir trailer</p>
+                </button>
+            </a>
+        </div>
+
+        <div id="posterMovieFive" class="posterMovie">
+            <div class="headPoster">
+                <h1 id="movieFive" class="movieName">Real Smooth - O Proximo Pa...</h1>
+                <img class="starValue" src="assets/starRating.png" alt="EstrelaDeAvaliação">
+                <p id="starMovieFive" class="starColor">3.3/5</p>
+            </div>
+
+            <img id="imgMovieFive" class="imgPosterMovie" src="assets/oProximoPasso.jpg" alt="oProximoPasso">
+
+            <div class="timeDate">
+                <img class="clockIcon" src="assets/alarmIcon.png" alt="alarmIcon">
+                <p id="timeMovieFive" class="timeMovie">1:47:00</p>
+                <img class="dateIcon" src="assets/calendarIcon.png" alt="calendarIcon">
+                <p id="dateMovieFive" class="dateMovie">2022</p>
+            </div>
+
+            <a href="https://youtu.be/JMVnR8gfj6o" target="_blank"><button class="buttonPlay">
+                    <img class="playIconButoon" src="assets/playIcon.png" alt="playIcon">
+                    <p class="playText">Assistir trailer</p>
+                </button>
+            </a>
+        </div>
+
+        <div id="posterMovieSix" class="posterMovie">
+            <div class="headPoster">
+                <h1 id="movieSix" class="movieName" class="overFlowText">The Covenant</h1>
+                <img class="starValue" src="assets/starRating.png" alt="EstrelaDeAvaliação">
+                <p id="starMovieSix" class="starColor">4.7/5</p>
+            </div>
+
+            <img id="imgMovieSix" class="imgPosterMovie" src="assets/theCovenant.jpg" alt="theCovenant">
+
+            <div class="timeDate">
+                <img class="clockIcon" src="assets/alarmIcon.png" alt="alarmIcon">
+                <p id="timeMovieSix" class="timeMovie">2:03:00</p>
+                <img class="dateIcon" src="assets/calendarIcon.png" alt="calendarIcon">
+                <p id="dateMovieSix" class="dateMovie">2023</p>
+            </div>
+
+            <a href="https://youtu.be/02PPMPArNEQ" target="_blank"><button class="buttonPlay">
+                    <img class="playIconButoon" src="assets/playIcon.png" alt="playIcon">
+                    <p class="playText">Assistir trailer</p>
+                </button>
+            </a>
+        </div>
+    </div>
+
+
+
+    <!-- ROW 3 -->
+    <div id="posterMovieSeven" class="moviesPlay">
+        <div class="posterMovie">
+            <div class="headPoster">
+                <h1 id="movieSeven" class="movieName">Operation Fortune: Ru...</h1>
+                <img class="starValue" src="assets/starRating.png" alt="EstrelaDeAvaliação">
+                <p id="starMovieSeven" class="starColor">3.9/5</p>
+            </div>
+
+            <img id="imgMovieSeven" class="imgPosterMovie" src="assets/operationFortune.jpg" alt="operationFortune">
+
+            <div class="timeDate">
+                <img class="clockIcon" src="assets/alarmIcon.png" alt="alarmIcon">
+                <p id="timeMovieSeven" class="timeMovie">1:54:00</p>
+                <img class="dateIcon" src="assets/calendarIcon.png" alt="calendarIcon">
+                <p id="dateMovieSeven" class="dateMovie">2023</p>
+            </div>
+
+            <a href="https://youtu.be/W8Sqk1GcqxY" target="_blank"><button class="buttonPlay">
+                    <img class="playIconButoon" src="assets/playIcon.png" alt="playIcon">
+                    <p class="playText">Assistir trailer</p>
+                </button>
+            </a>
+        </div>
+
+        <div id="posterMovieEight" class="posterMovie">
+            <div class="headPoster">
+                <h1 id="movieEight" class="movieName">Emancipation</h1>
+                <img class="starValue" src="assets/starRating.png" alt="EstrelaDeAvaliação">
+                <p id="starMovieEight" class="starColor">4.2/5</p>
+            </div>
+
+            <img id="imgMovieEight" class="imgPosterMovie" src="assets/emancipation.jpg" alt="emancipation">
+
+            <div class="timeDate">
+                <img class="clockIcon" src="assets/alarmIcon.png" alt="alarmIcon">
+                <p id="timeMovieEight" class="timeMovie">2:12:00</p>
+                <img class="dateIcon" src="assets/calendarIcon.png" alt="calendarIcon">
+                <p id="dateMovieEight" class="dateMovie">2022</p>
+            </div>
+
+            <a href="https://youtu.be/wafyhTpWpUs" target="_blank"><button class="buttonPlay">
+                    <img class="playIconButoon" src="assets/playIcon.png" alt="playIcon">
+                    <p class="playText">Assistir trailer</p>
+                </button>
+            </a>
+        </div>
+
+        <div id="posterMovieNine" class="posterMovie">
+            <div class="headPoster">
+                <h1 id="movieNine" class="movieName" class="overFlowText">Treze Vidas – O Resgate </h1>
+                <img class="starValue" src="assets/starRating.png" alt="EstrelaDeAvaliação">
+                <p id="starMovieNine" class="starColor">4.9/5</p>
+            </div>
+
+            <img id="imgMovieNine" class="imgPosterMovie" src="assets/trezeVidas.jpeg" alt="trezeVidas">
+
+            <div class="timeDate">
+                <img class="clockIcon" src="assets/alarmIcon.png" alt="alarmIcon">
+                <p id="timeMovieNine" class="timeMovie">2:27:00</p>
+                <img class="dateIcon" src="assets/calendarIcon.png" alt="calendarIcon">
+                <p id="dateMovieNine" class="dateMovie">2022</p>
+            </div>
+
+            <a href="https://youtu.be/9yPS2zU2CWg" target="_blank"><button class="buttonPlay">
+                    <img class="playIconButoon" src="assets/playIcon.png" alt="playIcon">
+                    <p class="playText">Assistir trailer</p>
+                </button>
+            </a>
+        </div>
+    </div>
+
+
+    <!-- ROW 4 -->
+    <div id="posterMovieTeen" class="moviesPlay">
+        <div class="posterMovie">
+            <div class="headPoster">
+                <h1 id="movieTeen" class="movieName">Top Gun: Maverick</h1>
+                <img class="starValue" src="assets/starRating.png" alt="EstrelaDeAvaliação">
+                <p id="starMovieTeen" class="starColor">4.8/5</p>
+            </div>
+
+            <img id="imgMovieTeen" class="imgPosterMovie" src="assets/topGun.jpg" alt="topGun">
+
+            <div class="timeDate">
+                <img class="clockIcon" src="assets/alarmIcon.png" alt="alarmIcon">
+                <p id="timeMovieTeen" class="timeMovie">2:11:00</p>
+                <img class="dateIcon" src="assets/calendarIcon.png" alt="calendarIcon">
+                <p id="dateMovieTeen" class="dateMovie">2022</p>
+            </div>
+
+            <a href="https://youtu.be/giXco2jaZ_4" target="_blank"><button class="buttonPlay">
+                    <img class="playIconButoon" src="assets/playIcon.png" alt="playIcon">
+                    <p class="playText">Assistir trailer</p>
+                </button>
+            </a>
+        </div>
+
+        <div id="posterMovieEleven" class="posterMovie">
+            <div class="headPoster">
+                <h1 id="movieEleven" class="movieName">X – A Marca da Morte</h1>
+                <img class="starValue" src="assets/starRating.png" alt="EstrelaDeAvaliação">
+                <p id="starMovieEleven" class="starColor">3.3/5</p>
+            </div>
+
+            <img id="imgMovieEleven" class="imgPosterMovie" src="assets/aMarcaDaMorte.jpg" alt="aMarcaDaMorte">
+
+            <div class="timeDate">
+                <img class="clockIcon" src="assets/alarmIcon.png" alt="alarmIcon">
+                <p id="timeMovieEleven" class="timeMovie">1:45:00</p>
+                <img class="dateIcon" src="assets/calendarIcon.png" alt="calendarIcon">
+                <p id="dateMovieEleven" class="dateMovie">2022</p>
+            </div>
+
+            <a href="https://youtu.be/1cOp7UpeXUk" target="_blank"><button class="buttonPlay">
+                    <img class="playIconButoon" src="assets/playIcon.png" alt="playIcon">
+                    <p class="playText">Assistir trailer</p>
+                </button>
+            </a>
+        </div>
+
+        <div id="posterMovieTwelve" class="posterMovie">
+            <div class="headPoster">
+                <h1 id="movieTwelve" class="movieName" class="overFlowText">Emily the Criminal</h1>
+                <img class="starValue" src="assets/starRating.png" alt="EstrelaDeAvaliação">
+                <p id="starMovieTwelve" class="starColor">4.0/5</p>
+            </div>
+
+            <img id="imgMovieTwelve" class="imgPosterMovie" src="assets/emilyTheCriminal.jpg" alt="emilyTheCriminal">
+
+            <div class="timeDate">
+                <img class="clockIcon" src="assets/alarmIcon.png" alt="alarmIcon">
+                <p id="timeMovieTwelve" class="timeMovie">1:33:00</p>
+                <img class="dateIcon" src="assets/calendarIcon.png" alt="calendarIcon">
+                <p id="dateMovieTwelve" class="dateMovie">2022</p>
+            </div>
+
+            <a href="https://youtu.be/Xzf1YCEkLDI" target="_blank"><button class="buttonPlay">
+                    <img class="playIconButoon" src="assets/playIcon.png" alt="playIcon">
+                    <p class="playText">Assistir trailer</p>
+                </button>
+            </a>
+        </div>
+    </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
